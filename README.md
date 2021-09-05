@@ -87,6 +87,10 @@ Adding card details        |
 ## How to get started
 Please get **Android Studio Arctic Fox 2020.3.1 Canary 4** or above [from here](https://developer.android.com/studio/preview/) and use **JDK 11** to build this project.
 
+## Fix Build Issues - Update to the above
+To make the project compatible with Android Studio Arctic Fox - 2020.3.1 Stable, downgrade Gradle Plugin to 1.5.10, Gradle to 7.0.0, Kotlin to 1.5.10, Compose plugin to 1.0.0.
+Also, note that you must go to Preferences > Gradle > Select Java 11 for JDK/Gradle SDK
+
 ## Features & Where to start
 - __Widgets:__ Widgets Screen show case all the available components to build UI.
 - __Home Screen:__ Start with Layouts, Modifiers and Simple Listviews
